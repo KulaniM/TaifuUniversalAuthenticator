@@ -11,7 +11,7 @@ tested with Python 3.9
 
 **samplelogin.py**
 
-3) chromedriver-py	92.0.4515.43	
+3) chromedriver-py	92.0.4515.43	(https://pypi.org/project/chromedriver-py/)
 
 **How to use:**
 The samplelogin.py shows an example of usage.
