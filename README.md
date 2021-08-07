@@ -17,6 +17,6 @@ tested with Python 3.9
 The samplelogin.py shows an example of usage.
 
 **Known weaknesses or isssues of the authenticator:**
-- When 2-factor authentication or additional verifications are used, those steps cannot be automated. The user has to manually click or provide additional info to complete the login.
+- When 2-factor authentication or additional verifications are used, those steps cannot be automated. In such as case, the user has to manually click or provide additional info to complete the login.
 - This project is based on a common set of keywords to identify the form elements. Hence, if the web client uses uncommon names or ids for HTML element attributes the authenticator will be failed to login.
 
