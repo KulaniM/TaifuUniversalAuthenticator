@@ -1,8 +1,14 @@
+# The UniversalWebClientAuthenticator.py was developed by Kulani Mahadewa
+# under the project Taifu Fuzzer (https://sites.google.com/view/taifu-demo/home)
+# The github project of the authenticator can be found at the
+# repo https://github.com/KulaniM/TaifuUniversalAuthenticator
+# **The script will store or share  private information of the user
+# and only user for the login purpose of the user given login url**
 from builtins import  KeyError, property
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import WebDriverException, ElementNotInteractableException, UnexpectedAlertPresentException
+from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import ElementNotVisibleException
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import MoveTargetOutOfBoundsException
